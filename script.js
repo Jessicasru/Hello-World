@@ -1,4 +1,3 @@
-
 const button = document.getElementById("changeTextButton");
 const paragraph = document.querySelector("p");
 
