@@ -1,6 +1,7 @@
-const button = document.getElementById("changeTextButton");
-const paragraph = document.querySelector("p");
+// Select the button
+const button = document.getElementById("linkedinButton");
 
-button.addEventListener("click", function() {
-    paragraph.textContent = "You clicked the button! 🎉";
+// Add a click event listener to open LinkedIn
+linkedinButton.addEventListener("click", function() {
+    window.open("https://www.linkedin.com/in/jessica-ruland/", "_blank");
 });
