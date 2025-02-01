@@ -1,5 +1,6 @@
 // Select the button
-const button = document.getElementById("linkedinButton");
+const linkedinButton = document.getElementById("linkedinButton");
+const paragraph = document.querySelector("p");
 
 // Add a click event listener to open LinkedIn
 linkedinButton.addEventListener("click", function() {

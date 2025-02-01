@@ -25,6 +25,65 @@ img {
     border-radius: 50%; /* Makes it circular */
     display: block; /* Centers it when using margin auto */
     margin: 20px auto; /* Adds spacing and centers */
-    border: 3px solid #1C610E; /* Adds a border */
+    border: 3px solid #005a8c; /* Adds a border */
    
+}
+
+/*Style the content layout */
+.content-wrapper {
+        width: 80%;
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    
+}
+
+/* improve paragraph text */
+
+p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* style the button */
+#linkedinButton {
+    background-color: #0077b5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+#linkedinButton:hover {
+    background-color: #005a8c;
+}
+
+/* style about me section */
+#about {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#about h2 {
+    color: #005a8c;
+    font-size: 24px;
+}
+
+#about p {
+    font-size: 18px;
+    color: #555;
 }
